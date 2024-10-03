@@ -15,7 +15,7 @@ Basic understanding of Java and regular expressions.
 
 How to Run:
 Clone this repository:
-git clone https://github.com/YourUsername/EmailValidationProject.git
+git clone https://github.com/Azeem899/EmailValidationProject.git
 
 Open the project in your preferred Java IDE or text editor.
 Compile and run the EmailValidation.java file.
