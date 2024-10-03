@@ -1,28 +1,48 @@
-Email Validation using Java
+Email Validation using Python:
 Overview:
-This project demonstrates how to validate email addresses using Java.
-The goal is to check whether a given email address meets common formatting standards and ensure it's potentially valid for further use.
+This project demonstrates how to validate email addresses using Python. The goal is to verify if a given email address follows standard email formatting rules.
 
 Features:
-Validates email structure (e.g., name@domain.com).
-Supports various email formats and domain extensions.
-Built using core Java with regex for validation.
+Validates the structure of email addresses (e.g., name@domain.com).
+Ensures emails follow typical formats and domain rules.
+Utilizes Python's re (regular expressions) module for validation.
 
 Prerequisites:
-Java Development Kit (JDK) installed (version 8+).
-IDE (e.g., IntelliJ IDEA, Eclipse) or any text editor.
-Basic understanding of Java and regular expressions.
+Python 3.x installed.
+A basic understanding of Python and regular expressions.
 
 How to Run:
 Clone this repository:
-git clone https://github.com/Azeem889/EmailValidationProject.git
+git clone https://github.com/Azeem889/email_verify2.py
 
-Open the project in your preferred Java IDE or text editor.
-Compile and run the EmailValidation.java file.
-javac EmailValidation.java
-java EmailValidation
+Navigate to the project directory:
+cd email_verify2.py
 
-Links:
-Java Regular Expressions: Oracle Java Docs - Regex,
-GitHub Markdown Guide: GitHub Markdown Guide,
-Basic Java Tutorial: Java Basics - W3Schools
+Run the email_verify2.py file:
+python email_verify2.py
+
+Sample Code:
+
+import re
+
+def is_valid_email(email):
+    # Define regex pattern for validating an Email
+    email_regex = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
+    return re.match(email_regex, email) is not None
+
+if __name__ == "__main__":
+    email = "example@domain.com"
+    if is_valid_email(email):
+        print(f"{email} is valid.")
+    else:
+        print(f"{email} is not valid.")
+
+Example Output:
+example@domain.com is valid.
+invalid-email.com is not valid.
+
+Useful Links:
+Python Regular Expressions: Python re Documentation
+GitHub Markdown Guide: GitHub Markdown Guide
+Python Tutorial: W3Schools - Python
+
