@@ -23,6 +23,6 @@ javac EmailValidation.java
 java EmailValidation
 
 Links:
-Java Regular Expressions: Oracle Java Docs - Regex
-GitHub Markdown Guide: GitHub Markdown Guide
+Java Regular Expressions: Oracle Java Docs - Regex,
+GitHub Markdown Guide: GitHub Markdown Guide,
 Basic Java Tutorial: Java Basics - W3Schools
