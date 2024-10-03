@@ -42,7 +42,7 @@ example@domain.com is valid.
 invalid-email.com is not valid.
 
 Useful Links:
-Python Regular Expressions: Python re Documentation
-GitHub Markdown Guide: GitHub Markdown Guide
+Python Regular Expressions: Python re Documentation,
+GitHub Markdown Guide: GitHub Markdown Guide,
 Python Tutorial: W3Schools - Python
 
