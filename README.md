@@ -33,9 +33,9 @@ def is_valid_email(email):
 if __name__ == "__main__":
     email = "example@domain.com"
     if is_valid_email(email):
-        print(f"{email} is valid.")
+        print("{email} is valid.")
     else:
-        print(f"{email} is not valid.")
+        print("{email} is not valid.")
 
 Example Output:
 example@domain.com is valid.
